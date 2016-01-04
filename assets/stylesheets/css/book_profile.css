@@ -1,0 +1,49 @@
+body {
+    background: url('/assets/images/book_profile.gif') fixed;
+    background-size: cover;
+    padding-top: 90px;
+    margin: 0;
+    background-repeat: no-repeat;
+}
+h2, p, h3{
+    color: #e4dfd5;
+    margin-left: 40px;
+}
+.btn-secondary{
+	background-color: rgba(56,58,75,.8);
+	color: #ffffff;
+}
+.white-box{
+	padding: 20px 10px;
+	background-color: rgba(220,220,220,.8);
+}
+.italicize{
+	font-style: italic;
+	font-size: 1.2em;
+	margin-top: 20px;
+}
+p.italicize{
+	color: #7a5f40;
+}
+.black, hr{
+	border-color: black;
+	color: black;
+}
+.inline, span{
+	display: inline;
+	margin-bottom: 20px;
+}
+a:hover{
+	text-decoration: none;
+}
+h4{
+	margin-left: 20px;
+}
+#delete{
+	text-align: right;
+	margin-right: 10px;
+}
+.btn:hover{
+	background-color: #454a79;
+	color: #ffffff;
+}

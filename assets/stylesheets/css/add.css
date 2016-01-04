@@ -1,0 +1,17 @@
+body {
+    background: url('/assets/images/books_transparent.gif') fixed;
+    background-size: cover;
+    padding-top: 90px;
+    margin: 0;
+    background-repeat: no-repeat;
+}
+h2{
+    text-align: center;
+}
+.white-box{
+	background-color: rgba(220,220,220,.8);
+}
+.btn-secondary{
+	background-color: rgba(56,58,75,.8);
+	color: #ffffff;
+}
