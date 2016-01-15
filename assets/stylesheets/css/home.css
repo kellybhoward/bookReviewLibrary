@@ -71,7 +71,16 @@ h3{
 .list-group{
     margin-top: 27px;
     overflow: scroll;
+    overflow-x: hidden;
     height: 300px;
+}
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+/* optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
 }
 a.list-group-item:focus, a.list-group-item:hover{
     background-color: #703c31;
