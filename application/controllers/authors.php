@@ -16,7 +16,8 @@ class Authors extends CI_Controller {
 
 	public function add()
 	{
-		$author_list = $this->author->get_all_authors();
+	
+        	$author_list = $this->author->get_all_authors();
 		$data = ['author_list'=>$author_list, 'user_id'=>$this->session->userdata('user_id')];
 		$this->load->view("add", $data);
 	}
