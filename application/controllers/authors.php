@@ -23,7 +23,7 @@ class Authors extends CI_Controller {
 		}
 		else
 		{
-			$this->load->view('welcome');
+			redirect("/");
 		}
         	
 	}
